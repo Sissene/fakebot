@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 console.log("Welcome Again !");
-ClientUser.setGame('#GDT2RC Soon')
+
  
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
