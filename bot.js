@@ -17,8 +17,7 @@ console.log("Welcome Again !");
 GDT2RC To join the Legendary Clan !
 
 https://discord.gg/SwWZA3c
-joined info-selfie
-! Selfie.                              
+                             
 Invitation Special for  ... [ ${member}  ]
 **`)
 }).catch(console.error)
