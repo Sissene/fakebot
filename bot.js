@@ -60,7 +60,7 @@ bot.on("message", async message => {
   message.reply("Done !")
 };
  
-}
+})
  
  
  
