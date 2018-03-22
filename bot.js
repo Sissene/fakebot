@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const botconfig = require("./botconfigs.json")
 
 console.log("Welcome Again !");
 
@@ -44,7 +45,7 @@ Invitation Special For ... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
-client.on("message", async message => {
+bot.on("message", async message => { 
   if(message.channel.type === "dm") return;
 
   let prefix = botconfig.prefix;
