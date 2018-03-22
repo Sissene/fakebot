@@ -46,7 +46,6 @@ Invitation Special For ... [ ${member}  ]
 }).catch(console.error)
 })
 client.on("message", async message => {
- if(message.author.client) return;
   if(message.channel.type === "dm") return;
 
   let prefix = botconfig.prefix;
