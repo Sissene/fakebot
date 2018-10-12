@@ -9,17 +9,19 @@ console.log("Welcome Again !");
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:kissing::heart::eyes: Welcome To Gladiator Clan Server !
+:kissing::heart::eyes: Rust Legacy game has been revived by Fougerite !! new custom maps etc...!
 ╔╦╦╦═╦╗╔═╦═╦══╦═╗
 ║║║║╩╣╚╣═╣║║║║║╩╣
 ╚══╩═╩═╩═╩═╩╩╩╩═╝ 
 
-‏Gladiator clan is Back :heart: join here and get tested or make 
-GDT2RC To join the Legendary Clan !
+‏if you want to join us and play RustBuster (revamped rust legacy) come to our official discord server for more info!
 
-https://discord.gg/SwWZA3c
-                             
-Invitation Special for  ... [ ${member}  ]
+
+https://discord.gg/n6SngvK
+
+Please don't mark that this is a spam ! this message will get sent once time ! Sorry if its annoy u (:
+
+Invitation Special For ... [ ${member}  ]
 **`)
 }).catch(console.error)
 
@@ -29,18 +31,18 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
-:kissing::heart::eyes: Welcome To Gladiator Clan Server !
+:kissing::heart::eyes: Rust Legacy game has been revived by Fougerite !! new custom maps etc...!
 ╔╦╦╦═╦╗╔═╦═╦══╦═╗
 ║║║║╩╣╚╣═╣║║║║║╩╣
 ╚══╩═╩═╩═╩═╩╩╩╩═╝ 
 
-‏Gladiator clan is Back :heart: join here and get tested or make 
-GDT2RC To join the Legendary Clan !
+‏if you want to join us and play RustBuster (revamped rust legacy) come to our official discord server for more info!
 
 
-https://discord.gg/SwWZA3c
+https://discord.gg/n6SngvK
 
-                              
+Please don't mark that this is a spam ! this message will get sent once time ! Sorry if its annoy u (:
+
 Invitation Special For ... [ ${member}  ]
 **`) 
 }).catch(console.error)
