@@ -57,6 +57,7 @@ client.on("message", async message => {
  
  if(cmd === `${prefix}send`) {
   let announce = args.slice(0).join(" ");
+  message.delete()
   if(announce <= 0) return message.channel.send("Can't send empty message !")
   message.guild.members.map(m => m.send(announce));
   message.reply("Done !")
